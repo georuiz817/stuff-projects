@@ -1,3 +1,18 @@
+# For you guys at stuff!  
+
+Feel free to clone/yarn start and take a look  
+
+Thing I would of loved to have done for you with a bit more time  
+
+- closer design edit, the example seems very similar to material UI (which I know) I wish I could've flexed it!  
+- clicking widget on the outside setting display to none.  
+- when you're on a specific month in the array, lock the days (so feb should only have 28 days instead of always there being 31). Maybe some type of case statements to compare the string to the amount of days. Or had months be an object that had monthName/maxDays values   
+- finishing up ticket system (potentially adding a backend, right now nothing persists)  
+
+If you have any additional questions for me or want to see any additional skills please feel free to reach out  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +83,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# stuff-projects
