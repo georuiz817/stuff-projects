@@ -1,0 +1,76 @@
+.TicketFeature {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 40% 50%;
+}
+
+.classify-tickets {
+  height: 100vh;
+  padding-right: 15%;
+}
+
+.assigned-tickets {
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  background-color: white; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  border-right: lightblue solid medium;
+}
+
+.assigned-ticket {
+  height: 42px;
+  width: 42px;
+  margin: 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 25%;
+  background-color: whitesmoke;
+  line-height: 42px;
+}
+
+.classify-title {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+.label {
+  display: block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  color: gray;
+}
+
+.dropdown {
+  border: none;
+  background-color: #f5f5f5;
+  font-size: 1rem;
+}
+
+.classify-tickets {
+  padding-left: 15%;
+}
+
+.submit-btn {
+  margin-top: 5%;
+  display: block;
+  background-color: lightblue;
+  border-radius: 2px;
+  border: none;
+  padding: 1%;
+  cursor: pointer;
+}
+
+#gray-btn {
+  color: gray;
+}
+
+.title-input {
+  border: solid thin whitesmoke;
+  background-color: whitesmoke;
+  border-color: gray;
+  border-radius: 2px;
+  height: 1.2rem;
+}
+
+.bad-chars {
+  color: red;
+}

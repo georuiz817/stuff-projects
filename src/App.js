@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import DatePicker from "./date-project/DatePicker.js";
+import TicketFeature from "./ticket-project/TicketFeature.js";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <a href='/'>time widget</a>
+      <a href='tickets'>ticket widget</a>
+      <Router>
+      <Switch>
+        <Route exact path="/tickets">
+          <TicketFeature />
+        </Route>
+        <Route exact path='/'>
+          <DatePicker />
+        </Route>
+      </Switch>
+      </Router>
     </div>
   );
 }
